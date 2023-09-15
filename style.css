@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.time-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+textarea {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.past {
+    background-color: #f8d7da;
+}
+
+.present {
+    background-color: #fff3cd;
+}
+
+.future {
+    background-color: #d1e7dd;
+}
