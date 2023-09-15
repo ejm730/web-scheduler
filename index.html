@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Day Scheduler</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -13,7 +13,65 @@
         <h2 id="currentDay"></h2>
     </header>
     <div class="container">
-        <!-- Time blocks will be added here -->
+        <!-- Time blocks for working hours of the day -->
+        <!-- These classes 'past', 'present', 'future' are placeholders. JavaScript will dynamically set the correct class based on the current time -->
+        <div class="time-block" data-hour="9">
+            <span class="hour">9:00 AM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
+    
+        <div class="time-block" data-hour="10">
+            <span class="hour">10:00 AM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
+        <div class="time-block" data-hour="11">
+            <span class="hour">11:00 AM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
+
+        <div class="time-block" data-hour="12">
+            <span class="hour">12:00 PM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
+        <div class="time-block" data-hour="13">
+            <span class="hour">1:00 PM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
+        <div class="time-block" data-hour="14">
+            <span class="hour">2:00 PM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
+        <div class="time-block" data-hour="15">
+            <span class="hour">3:00 PM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
+        <div class="time-block" data-hour="16">
+            <span class="hour">4:00 PM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
+        
+        <div class="time-block" data-hour="17">
+            <span class="hour">5:00 PM</span>
+            <div class="description" contenteditable="true"></div>
+            <button class="saveBtn">💾</button>
+            <button class="deleteBtn">🗑</button>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
